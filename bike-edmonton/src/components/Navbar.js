@@ -3,8 +3,17 @@ import "../styles/styles.css";
 
 export default function Navbar() {
   return (
-    <div>
-      <h1>NAVBAR</h1>
+    <div className="flex-centered">
+      <p className="logo-font">BIKE EDMONTON</p>
+      <div className="navbar">
+        <ul>
+          <li>Programs</li>
+          <li>Resources</li>
+          <li>Support</li>
+          <li>About</li>
+        </ul>
+      </div>
+      <button id="volunteer">Volunteer</button>
     </div>
   );
 }

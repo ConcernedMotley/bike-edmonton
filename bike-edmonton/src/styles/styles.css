@@ -1,9 +1,48 @@
 /* CSS properties */
 
+/* VARIABLES */
+:root{
+    --Highlight-color: #1423FF;
+}
+
+
+/* GLOBAL */
+
+body {
+    padding: 0 80px;
+}
+
 /* FONTS */
 
 h1 {
     font-family: "Roboto" sans-serif;
     font-weight: bold;
     font-size: 48px;
+}
+
+.logo-font {
+    color: var(--Highlight-color);
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* LAYOUT */
+
+.flex-centered {
+    display: flex;
+    padding: 16px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* COMPONENTS */
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style-type: none;
 }
